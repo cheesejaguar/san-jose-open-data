@@ -1,0 +1,4 @@
+interface:
+  display_name: "San José Open Data"
+  short_description: "Find and use San José and Santa Clara public data"
+  default_prompt: "Use $san-jose-open-data to find authoritative public datasets for San José and Santa Clara County."

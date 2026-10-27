@@ -1,0 +1,619 @@
+{
+  "snapshot_local_date": "2026-10-26",
+  "timezone": "America/Los_Angeles",
+  "files": [
+    {
+      "file": "city_arcgis.json",
+      "bytes": 3437719,
+      "sha256": "45ecffeec5baf38d48d06a338f7a20c9ac5dd7d23aac05cf61864a029126c3b5",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=201&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=301&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=401&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=501&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=601&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=701&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=801&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=901&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A6kSayNlqm3HvsYZ8+AND+access%3Apublic&num=100&start=1001&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.096145+00:00"
+    },
+    {
+      "file": "city_ckan.json",
+      "bytes": 1406595,
+      "sha256": "9d7109a79b0af12bd2114ce61bf381fe5402fc4a10e617683a8e2dbc0477a37a",
+      "source_urls": [
+        "https://data.sanjoseca.gov/api/3/action/package_search?rows=1000"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.137065+00:00"
+    },
+    {
+      "file": "city_gis.json",
+      "bytes": 45017,
+      "sha256": "147f747f993e04fa087dfc222c9b1efd2da978fe26dcfc77cff73f1bd70f45ed",
+      "source_urls": [
+        "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.235380+00:00"
+    },
+    {
+      "file": "city_gis_dcat.json",
+      "bytes": 565826,
+      "sha256": "f8743becd792407de1f802e457f0fa313f67611a5bce9c9f10e57d88733edc45",
+      "source_urls": [
+        "https://gisdata-csj.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:53.574968+00:00"
+    },
+    {
+      "file": "city_gis_directory.json",
+      "bytes": 292,
+      "sha256": "21f90160834f66421e43e617f111a6a5c6ce08f4b3b90cfaf28524bde5170b2a",
+      "source_urls": [
+        "https://geo.sanjoseca.gov/server/rest/services?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:52.466629+00:00"
+    },
+    {
+      "file": "city_gis_layers.json",
+      "bytes": 3059256,
+      "sha256": "555345d0906aa4537c6834c1bf848a0cfd6c06be30ea4f806208b397e158effc",
+      "source_urls": [
+        "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/layers?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:52.644688+00:00"
+    },
+    {
+      "file": "city_layer_count.json",
+      "bytes": 80,
+      "sha256": "ce9b78539f2d9dc65be0e82217d94b84ed9fad61003a2f55260755c437613050",
+      "source_urls": [
+        "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/126/query?where=1%3D1&returnCountOnly=true&f=json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.780447+00:00"
+    },
+    {
+      "file": "city_opn.json",
+      "bytes": 145,
+      "sha256": "503e5dcafd81793eea371050b2db513fa20fd2c59dceff834ba93f02deaaf7d8",
+      "source_urls": [
+        "https://geo.sanjoseca.gov/server/rest/services/OPN?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.365258+00:00"
+    },
+    {
+      "file": "county_central_arcgis.json",
+      "bytes": 937582,
+      "sha256": "9f0480d7dda4de747fb91e418937a9942f7b68ca25019219d5be0e5fbe975c98",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3ANkcnS0qk4w2wasOJ+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3ANkcnS0qk4w2wasOJ+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3ANkcnS0qk4w2wasOJ+AND+access%3Apublic&num=100&start=201&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3ANkcnS0qk4w2wasOJ+AND+access%3Apublic&num=100&start=301&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3ANkcnS0qk4w2wasOJ+AND+access%3Apublic&num=100&start=401&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:22:27.416787+00:00"
+    },
+    {
+      "file": "county_central_portal.json",
+      "bytes": 29306,
+      "sha256": "5e17297e7530cb7779cff8ba42510ae3d50c0a2834ea32b51391d3114523f9c2",
+      "source_urls": [
+        "https://sccgov.maps.arcgis.com/sharing/rest/portals/self?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:21:52.986591+00:00"
+    },
+    {
+      "file": "county_dcat.json",
+      "bytes": 1867908,
+      "sha256": "249c54c689a9b6e49de861718a028d6a3ab438b343d14b16b4866c2840313d0b",
+      "source_urls": [
+        "https://data.sccgov.org/data.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.615786+00:00"
+    },
+    {
+      "file": "county_org.json",
+      "bytes": 21795,
+      "sha256": "1ffc824b04a66ffcb642a2ce8a915a9207c695f8980d64bc67f060e1070dcb61",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/portals/tcv2cMrq63AgvbHF?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:52.554718+00:00"
+    },
+    {
+      "file": "county_planning_arcgis.json",
+      "bytes": 1301985,
+      "sha256": "ed513272940b31c6ad83634cc33c2c17877b53ca9ebe7fd9a65ad41aa06da9e6",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3Atcv2cMrq63AgvbHF+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3Atcv2cMrq63AgvbHF+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3Atcv2cMrq63AgvbHF+AND+access%3Apublic&num=100&start=201&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3Atcv2cMrq63AgvbHF+AND+access%3Apublic&num=100&start=301&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3Atcv2cMrq63AgvbHF+AND+access%3Apublic&num=100&start=401&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:50.639814+00:00"
+    },
+    {
+      "file": "county_planning_dcat.json",
+      "bytes": 450557,
+      "sha256": "a1a30367dd8227241cf73871fc855c21da26c4d8f5502d534aa2c9fd098d4922",
+      "source_urls": [
+        "https://gisdata-sccplanning.hub.arcgis.com/api/feed/dcat-us/1.1.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.951210+00:00"
+    },
+    {
+      "file": "county_socrata.json",
+      "bytes": 5569489,
+      "sha256": "5b6cb74aadeaf3afe4d1c46ef89ee376311ddd9efcb742d4b9494110f6cfe713",
+      "source_urls": [
+        "https://api.us.socrata.com/api/catalog/v1?domains=data.sccgov.org&limit=10000"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.419346+00:00"
+    },
+    {
+      "file": "county_views.json",
+      "bytes": 5204490,
+      "sha256": "3a82942a13ae867406a24e5b08b3b228bd00fcf0df55a22c3b8913cac02fb44c",
+      "source_urls": [
+        "https://data.sccgov.org/api/views.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:20.391945+00:00"
+    },
+    {
+      "file": "expand_log.json",
+      "bytes": 2276,
+      "sha256": "891ec63c2abe6b3c540f5206b05fb966aa2573b81d33a3540d8c5ab2eacf894b",
+      "source_urls": [],
+      "saved_at_utc": "2026-10-27T01:20:20.392492+00:00"
+    },
+    {
+      "file": "food_business_count.json",
+      "bytes": 19,
+      "sha256": "a211bfb9f3f3abff39665fb7678554d2261e941bc14ae17ffb52fa27d00fb816",
+      "source_urls": [
+        "https://data.sccgov.org/resource/vuw7-jmjk.json?%24select=count(*)"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.807757+00:00"
+    },
+    {
+      "file": "food_business_metadata.json",
+      "bytes": 21139,
+      "sha256": "b5b44ef9d941119f6b40d0adb8810365b2c6d0d2d0ef1fcd448e5a627c236cac",
+      "source_urls": [
+        "https://data.sccgov.org/api/views/vuw7-jmjk.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.261173+00:00"
+    },
+    {
+      "file": "food_feed_metadata.json",
+      "bytes": 5687,
+      "sha256": "407b3eb447595f67866d82cdace0f6be00bc7f3b665e8ffd18d9d52701af3f4f",
+      "source_urls": [
+        "https://data.sccgov.org/api/views/itys-r3sp.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.705129+00:00"
+    },
+    {
+      "file": "food_inspection_metadata.json",
+      "bytes": 17791,
+      "sha256": "fdf21fe71d4c2e2bf461768044dec166164019034912b200b4b4b111d4898267",
+      "source_urls": [
+        "https://data.sccgov.org/api/views/2u2d-8jej.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:12.284941+00:00"
+    },
+    {
+      "file": "food_violation_metadata.json",
+      "bytes": 16349,
+      "sha256": "86c003887895a1603bf87da3ed93eccbb9a36c0b6bc7f234ed6e95ef845eb0c5",
+      "source_urls": [
+        "https://data.sccgov.org/api/views/wkaa-4ccv.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:08.440320+00:00"
+    },
+    {
+      "file": "harvest_log.json",
+      "bytes": 2805,
+      "sha256": "9c2dcebb01901354138fd6827de19fd816e1b5218e39a0638f7d30a25ebe372e",
+      "source_urls": [],
+      "saved_at_utc": "2026-10-27T01:18:51.369340+00:00"
+    },
+    {
+      "file": "probe_log.json",
+      "bytes": 3679,
+      "sha256": "410640d5e2f4a1d750d35dffb10b033ca10ef58259b1c8d980342f5771418636",
+      "source_urls": [],
+      "saved_at_utc": "2026-10-27T01:31:52.872936+00:00"
+    },
+    {
+      "file": "sjw_experience.json",
+      "bytes": 82658,
+      "sha256": "385aa24491945658ebc0146b562ae86f4cc69089a35e758b7e2d5c0974963dfe",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/content/items/d1d4a56e5b07472fb959a774d7a300d5/data?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:52.909065+00:00"
+    },
+    {
+      "file": "sjw_item.json",
+      "bytes": 3271,
+      "sha256": "5c5be31c06acc3c8f1db01dbba5d0971118a001c303390e1da9e66b60ee829f6",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/content/items/3490491979384f508570c4dcd2e81c75?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.808689+00:00"
+    },
+    {
+      "file": "sjw_line_metadata.json",
+      "bytes": 4080,
+      "sha256": "e8f2a816a8ff8fa440cfdac7d5ae369589155a44d4d4f719dc15663a6832680f",
+      "source_urls": [
+        "https://services5.arcgis.com/ixApgzWW1LUCWXMY/arcgis/rest/services/Service_Line_Material_Inventory_view/FeatureServer?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:31:09.263724+00:00"
+    },
+    {
+      "file": "sjw_webmap.json",
+      "bytes": 233053,
+      "sha256": "f57a5154f313605e041ce3d9e2260558a647575316127acf15414de7ff5ba652",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/content/items/3490491979384f508570c4dcd2e81c75/data?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.687120+00:00"
+    },
+    {
+      "file": "sjwater_arcgis.json",
+      "bytes": 211278,
+      "sha256": "6340b7752ec909b8f9775fe702c0703af91c3901c34d3d030570048e1cfae0a7",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AixApgzWW1LUCWXMY+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AixApgzWW1LUCWXMY+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:22:26.831125+00:00"
+    },
+    {
+      "file": "valleywater_arcgis.json",
+      "bytes": 659182,
+      "sha256": "943960175b836205702bb3df13484d067b8be545c9a20c0f32512e2c674ce7dc",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A9KdAx8qBsHiGXOEw+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A9KdAx8qBsHiGXOEw+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3A9KdAx8qBsHiGXOEw+AND+access%3Apublic&num=100&start=201&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:49.903603+00:00"
+    },
+    {
+      "file": "valleywater_dcat.json",
+      "bytes": 118994,
+      "sha256": "2c60887c12362564717607e23c94de5a485e5923aa772c01bd239a0cb36c4a42",
+      "source_urls": [
+        "https://data-valleywater.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.295006+00:00"
+    },
+    {
+      "file": "vta_arcgis.json",
+      "bytes": 924913,
+      "sha256": "aa10bab970dcec374650be532ebe7cfff0525e48b94b974c60feb7f28e70742c",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AcEcV2eKpmBtlBVpA+AND+access%3Apublic&num=100&start=1&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AcEcV2eKpmBtlBVpA+AND+access%3Apublic&num=100&start=101&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AcEcV2eKpmBtlBVpA+AND+access%3Apublic&num=100&start=201&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AcEcV2eKpmBtlBVpA+AND+access%3Apublic&num=100&start=301&sortField=title&sortOrder=asc",
+        "https://www.arcgis.com/sharing/rest/search?f=json&q=orgid%3AcEcV2eKpmBtlBVpA+AND+access%3Apublic&num=100&start=401&sortField=title&sortOrder=asc"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:50.683140+00:00"
+    },
+    {
+      "file": "vta_dcat.json",
+      "bytes": 566859,
+      "sha256": "277846b3d49ee6e68427acadb730c1c3157c7dd93b2d5e306a8c6f30612a7ead",
+      "source_urls": [
+        "https://data.vta.org/api/feed/dcat-us/1.1.json"
+      ],
+      "saved_at_utc": "2026-10-27T01:18:50.530276+00:00"
+    },
+    {
+      "file": "vta_hosted.json",
+      "bytes": 8113,
+      "sha256": "7b6b8bc3d39e0db278ace6d02834f896af2325ad120b223d8a72ed6e052ce064",
+      "source_urls": [
+        "https://gis.vta.org/gis/rest/services/Hosted?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.289250+00:00"
+    },
+    {
+      "file": "vta_rest.json",
+      "bytes": 7398,
+      "sha256": "69567064b20307ef5b322fcfad47cd9eccc0fe374788a70aaa41a72bb21a7b1e",
+      "source_urls": [
+        "https://gis.vta.org/gis/rest/services?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:20:52.199231+00:00"
+    },
+    {
+      "file": "vta_site.json",
+      "bytes": 20493,
+      "sha256": "9b807f3de6b3916bd4bdea9906e8a114d4a737ca8105e3f79787e0e5039e4486",
+      "source_urls": [
+        "https://www.arcgis.com/sharing/rest/content/items/805aa8ef9ac84a7ea6d2f033f1f29618/data?f=pjson"
+      ],
+      "saved_at_utc": "2026-10-27T01:19:52.619863+00:00"
+    }
+  ],
+  "request_logs": {
+    "harvest_log": [
+      {
+        "source": "city_ckan",
+        "url": "https://data.sanjoseca.gov/api/3/action/package_search?rows=1000",
+        "final_url": "https://data.sanjoseca.gov/api/3/action/package_search?rows=1000",
+        "status": 200,
+        "bytes": 1406595,
+        "file": "work/raw/city_ckan.json"
+      },
+      {
+        "source": "county_socrata",
+        "url": "https://api.us.socrata.com/api/catalog/v1?domains=data.sccgov.org&limit=10000",
+        "final_url": "https://api.us.socrata.com/api/catalog/v1?domains=data.sccgov.org&limit=10000",
+        "status": 200,
+        "bytes": 5569489,
+        "file": "work/raw/county_socrata.json"
+      },
+      {
+        "source": "county_dcat",
+        "url": "https://data.sccgov.org/data.json",
+        "final_url": "https://data.sccgov.org/data.json",
+        "status": 200,
+        "bytes": 1867908,
+        "file": "work/raw/county_dcat.json"
+      },
+      {
+        "source": "vta_dcat",
+        "url": "https://data.vta.org/api/feed/dcat-us/1.1.json",
+        "final_url": "https://data.vta.org/api/feed/dcat-us/1.1.json",
+        "status": 200,
+        "bytes": 566859,
+        "file": "work/raw/vta_dcat.json"
+      },
+      {
+        "source": "valleywater_dcat",
+        "url": "https://data-valleywater.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "final_url": "https://data-valleywater.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "status": 200,
+        "bytes": 118994,
+        "file": "work/raw/valleywater_dcat.json"
+      },
+      {
+        "source": "city_gis",
+        "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer?f=pjson",
+        "final_url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer?f=pjson",
+        "status": 200,
+        "bytes": 45017,
+        "file": "work/raw/city_gis.json"
+      },
+      {
+        "source": "county_gis_home",
+        "url": "https://data-sccgis.opendata.arcgis.com/",
+        "final_url": "https://data-sccgis.opendata.arcgis.com/",
+        "status": 200,
+        "bytes": 5109,
+        "file": "work/raw/county_gis_home.html"
+      },
+      {
+        "source": "county_home",
+        "url": "https://data.sccgov.org/",
+        "final_url": "https://data.sccgov.org/",
+        "status": 200,
+        "bytes": 596544,
+        "file": "work/raw/county_home.html"
+      },
+      {
+        "source": "city_gis_home",
+        "url": "https://gisdata-csj.opendata.arcgis.com/",
+        "final_url": "https://gisdata-csj.opendata.arcgis.com/",
+        "status": 200,
+        "bytes": 53464,
+        "file": "work/raw/city_gis_home.html"
+      },
+      {
+        "source": "vta_home",
+        "url": "https://data.vta.org/",
+        "final_url": "https://data.vta.org/",
+        "status": 200,
+        "bytes": 41060,
+        "file": "work/raw/vta_home.html"
+      },
+      {
+        "source": "valleywater_home",
+        "url": "https://data-valleywater.opendata.arcgis.com/",
+        "final_url": "https://data-valleywater.opendata.arcgis.com/",
+        "status": 200,
+        "bytes": 34601,
+        "file": "work/raw/valleywater_home.html"
+      }
+    ],
+    "expand_log": [
+      {
+        "source": "city_gis_dcat",
+        "url": "https://gisdata-csj.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "final_url": "https://gisdata-csj.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "status": 200,
+        "bytes": 565826,
+        "file": "work/raw/city_gis_dcat.json"
+      },
+      {
+        "source": "county_org",
+        "url": "https://www.arcgis.com/sharing/rest/portals/tcv2cMrq63AgvbHF?f=pjson",
+        "final_url": "https://www.arcgis.com/sharing/rest/portals/tcv2cMrq63AgvbHF?f=pjson",
+        "status": 200,
+        "bytes": 21795,
+        "file": "work/raw/county_org.json"
+      },
+      {
+        "source": "city_gis_directory",
+        "url": "https://geo.sanjoseca.gov/server/rest/services?f=pjson",
+        "final_url": "https://geo.sanjoseca.gov/server/rest/services?f=pjson",
+        "status": 200,
+        "bytes": 292,
+        "file": "work/raw/city_gis_directory.json"
+      },
+      {
+        "source": "county_gis_directory",
+        "url": "https://gis.sccgov.org/arcgis/rest/services?f=pjson",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "city_gis_layers",
+        "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/layers?f=pjson",
+        "final_url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/layers?f=pjson",
+        "status": 200,
+        "bytes": 3059256,
+        "file": "work/raw/city_gis_layers.json"
+      },
+      {
+        "source": "county_views",
+        "url": "https://data.sccgov.org/api/views.json",
+        "final_url": "https://data.sccgov.org/api/views.json",
+        "status": 200,
+        "bytes": 5204490,
+        "file": "work/raw/county_views.json"
+      },
+      {
+        "source": "vta_site",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/805aa8ef9ac84a7ea6d2f033f1f29618/data?f=pjson",
+        "final_url": "https://www.arcgis.com/sharing/rest/content/items/805aa8ef9ac84a7ea6d2f033f1f29618/data?f=pjson",
+        "status": 200,
+        "bytes": 20493,
+        "file": "work/raw/vta_site.json"
+      },
+      {
+        "source": "sjw_experience",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/d1d4a56e5b07472fb959a774d7a300d5/data?f=pjson",
+        "final_url": "https://www.arcgis.com/sharing/rest/content/items/d1d4a56e5b07472fb959a774d7a300d5/data?f=pjson",
+        "status": 200,
+        "bytes": 82658,
+        "file": "work/raw/sjw_experience.json"
+      }
+    ],
+    "probe_log": [
+      {
+        "url": "https://mapservices.sccgov.org/arcgis/rest/services?f=pjson",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mapservices.sccgov.org'. (_ssl.c:1129)>"
+      },
+      {
+        "url": "https://webgis.sccgov.org/gis/rest/services?f=pjson",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://prod.sccgov.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'prod.sccgov.opendata.arcgis.com'. (_ssl.c:1129)>"
+      },
+      {
+        "url": "https://gisdata-sccplanning.hub.arcgis.com/api/feed/dcat-us/1.1.json",
+        "status": 200,
+        "final_url": "https://gisdata-sccplanning.hub.arcgis.com/api/feed/dcat-us/1.1.json",
+        "bytes": 450557,
+        "error": null
+      },
+      {
+        "url": "https://data.sccgov.org/api/views/vuw7-jmjk.json",
+        "status": 200,
+        "final_url": "https://data.sccgov.org/api/views/vuw7-jmjk.json",
+        "bytes": 21139,
+        "error": null
+      },
+      {
+        "url": "https://data.sccgov.org/api/views/2u2d-8jej.json",
+        "status": 200,
+        "final_url": "https://data.sccgov.org/api/views/2u2d-8jej.json",
+        "bytes": 17791,
+        "error": null
+      },
+      {
+        "url": "https://data.sccgov.org/api/views/wkaa-4ccv.json",
+        "status": 200,
+        "final_url": "https://data.sccgov.org/api/views/wkaa-4ccv.json",
+        "bytes": 16349,
+        "error": null
+      },
+      {
+        "url": "https://data.sccgov.org/api/views/itys-r3sp.json",
+        "status": 200,
+        "final_url": "https://data.sccgov.org/api/views/itys-r3sp.json",
+        "bytes": 5687,
+        "error": null
+      },
+      {
+        "url": "https://data.sccgov.org/resource/vuw7-jmjk.json?%24select=count(*)",
+        "status": 200,
+        "final_url": "https://data.sccgov.org/resource/vuw7-jmjk.json?%24select=count(*)",
+        "bytes": 19,
+        "error": null
+      },
+      {
+        "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/126/query?where=1%3D1&returnCountOnly=true&f=json",
+        "status": 200,
+        "final_url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/126/query?where=1%3D1&returnCountOnly=true&f=json",
+        "bytes": 80,
+        "error": {
+          "code": 500,
+          "details": [],
+          "message": "Error performing query operation"
+        }
+      },
+      {
+        "url": "https://services5.arcgis.com/ixApgzWW1LUCWXMY/arcgis/rest/services/Service_Line_Material_Inventory_view/FeatureServer?f=pjson",
+        "status": 200,
+        "final_url": "https://services5.arcgis.com/ixApgzWW1LUCWXMY/arcgis/rest/services/Service_Line_Material_Inventory_view/FeatureServer?f=pjson",
+        "bytes": 4080,
+        "error": null
+      },
+      {
+        "url": "https://gtfs.vta.org/gtfs_vta.zip",
+        "status": 200,
+        "final_url": "https://gtfs.vta.org/gtfs_vta.zip",
+        "bytes": 0,
+        "error": null,
+        "headers": {
+          "Content-Type": "application/zip",
+          "Content-Length": "11050960",
+          "Connection": "close",
+          "Server": "AmazonS3",
+          "Date": "Tue, 27 Oct 2026 01:31:09 GMT",
+          "Last-Modified": "Fri, 16 Oct 2026 20:17:10 GMT",
+          "ETag": "\"ec4593fc807942c34f1e2866427e235e\"",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "0_mQZVejDg6yEfoUHltZ.3zvnPhX1dts",
+          "Accept-Ranges": "bytes",
+          "X-Cache": "Miss from cloudfront",
+          "Via": "1.1 83a1283d49701137e5e33ceceadcbca6.cloudfront.net (CloudFront)",
+          "X-Amz-Cf-Pop": "SFO53-P3",
+          "X-Amz-Cf-Id": "4F68dD0hcfigvjckTCiN_8uTnrRqIuwplkAdTYR-krdnFbFgUY5_6A=="
+        }
+      },
+      {
+        "url": "https://www.openspace.org/gis-data",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "notes": [
+    "Metadata only: raw snapshots are not the underlying observation databases.",
+    "Counts are catalogue records, not unique independent databases.",
+    "Source content changes; snapshots reflect different request instants within this research session.",
+    "Some public pages returned HTTP 403 or timeouts; see sources.json verification fields.",
+    "Failed catalogue host probes did not contribute fictional records."
+  ],
+  "validation": {
+    "skill_validator": "passed (PyYAML installed only in task work folder)",
+    "search_helper": "tested ID lookup, provider/topic search, field metadata and no-match behavior",
+    "refresh_helper": "live CKAN refresh 170; Socrata refresh 1806; San Jose Water ArcGIS refresh 101; all requested sources complete",
+    "html": "browser checked overview, source-family search, item ID search and expandable schema/resource links",
+    "not_verified": "Every individual resource download; all underlying data rows; all public ArcGIS service sublayers"
+  }
+}
